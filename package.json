@@ -1,5 +1,13 @@
 {
   "name": "advent-of-code-2023",
-  "packageManager": "yarn@3.6.4",
-  "type": "module"
+  "type": "module",
+  "module": "index.ts",
+  "scripts": {
+    "day1": "bun ./src/day1/index.js",
+    "day2": "bun ./src/day2/index.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "bun-types": "latest"
+  }
 }
